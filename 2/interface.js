@@ -47,7 +47,7 @@ function init(){
             for(var k=0; k<datas[index_key].length; k++){
                 list_categories.innerHTML += '<div class="d-flex align-items-center">\
                     <div>\
-                        <img src="assets/img/menu/food1.jpg" alt=""\
+                        <img src="'+datas[index_key][k].image+'" alt=""\
                             class="width-60 rounded-circle shadow me-2 me-lg-3">\
                     </div>\
                     <div class="flex-grow-1">\
