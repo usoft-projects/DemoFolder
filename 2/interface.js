@@ -48,7 +48,7 @@ function init(){
                 list_categories.innerHTML += '<div class="d-flex align-items-center">\
                     <div>\
                         <img src="'+datas[index_key][k].image+'" alt=""\
-                            class="width-60 rounded-circle shadow me-2 me-lg-3">\
+                            class="width-60 rounded-circle shadow me-2 me-lg-3" height="50">\
                     </div>\
                     <div class="flex-grow-1">\
                         <div class="d-flex w-100 justify-content-between align-items-center">\
